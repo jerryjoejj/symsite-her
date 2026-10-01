@@ -1,0 +1,13 @@
+energy_definition,target,H_minus_clean_eV,scope
+without_entropy_eV,Co-Cu-Cr-Zn,-3.53443862,common_G_B_not_DeltaG_label
+without_entropy_eV,Co-Cu-Fe-Zn,-3.47988785,common_G_B_not_DeltaG_label
+without_entropy_eV,Co-Mn-Cr-Zn,-3.48052155,common_G_B_not_DeltaG_label
+without_entropy_eV,Co-Mn-Fe-Zn,-3.60693851,common_G_B_not_DeltaG_label
+E0_eV,Co-Cu-Cr-Zn,-3.51714816,common_G_B_not_DeltaG_label
+E0_eV,Co-Cu-Fe-Zn,-3.46435847,common_G_B_not_DeltaG_label
+E0_eV,Co-Mn-Cr-Zn,-3.46665524,common_G_B_not_DeltaG_label
+E0_eV,Co-Mn-Fe-Zn,-3.60121150,common_G_B_not_DeltaG_label
+F_eV,Co-Cu-Cr-Zn,-3.49985771,common_G_B_not_DeltaG_label
+F_eV,Co-Cu-Fe-Zn,-3.44882909,common_G_B_not_DeltaG_label
+F_eV,Co-Mn-Cr-Zn,-3.45278893,common_G_B_not_DeltaG_label
+F_eV,Co-Mn-Fe-Zn,-3.59548449,common_G_B_not_DeltaG_label

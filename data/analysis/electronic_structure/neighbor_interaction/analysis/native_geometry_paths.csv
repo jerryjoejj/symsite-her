@@ -1,0 +1,7 @@
+energy_definition,target,clean_GB_minus_native_eV,H_GB_minus_native_eV,adsorption_geometry_path_eV,native_H_minus_clean_eV,common_H_minus_clean_eV
+without_entropy_eV,Co-Mn-Cr-Zn,0.25613370,0.19501560,-0.06111810,-3.41940345,-3.48052155
+without_entropy_eV,Co-Mn-Fe-Zn,0.24799218,0.06740965,-0.18058253,-3.42635598,-3.60693851
+E0_eV,Co-Mn-Cr-Zn,0.25062414,0.19486372,-0.05576042,-3.41089482,-3.46665524
+E0_eV,Co-Mn-Fe-Zn,0.24221863,0.06511517,-0.17710346,-3.42410804,-3.60121150
+F_eV,Co-Mn-Cr-Zn,0.24511459,0.19471184,-0.05040275,-3.40238618,-3.45278893
+F_eV,Co-Mn-Fe-Zn,0.23644507,0.06282070,-0.17362437,-3.42186012,-3.59548449

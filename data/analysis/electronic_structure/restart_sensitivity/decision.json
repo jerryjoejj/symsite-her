@@ -1,0 +1,22 @@
+{
+  "task": "NP.MF9R",
+  "status": "completed_magnetic_pattern_reselected",
+  "technical_pass": true,
+  "actual_restart_verified": true,
+  "SCF_steps": 39,
+  "local_endpoint_stability_pass": false,
+  "global_alignment": 1,
+  "Co_moment_old_new_muB": [-0.531, 0.703],
+  "energy_delta_eV": "-0.16880494",
+  "new_band_density_closure_operational_gates": "pass",
+  "I_original_eV": "-0.18096773",
+  "I_single_endpoint_substitution_eV": "-0.01216279",
+  "substitution_scope": "mixed protocol diagnostic only",
+  "MF8_H1_reclassified": false,
+  "full_I_error_certified": false,
+  "same_branch_or_global_ground_state_proven": false,
+  "interpretation": "Original large response and Mn negative response are sensitive to electron-state selection; do not treat them as stable mechanism quantities",
+  "next_action": "Author assessment of a separately designed state-selection mechanism question; no automatic continuation/seed/parameter scan",
+  "new_compute_package": false,
+  "new_DFT_by_agent": 0
+}

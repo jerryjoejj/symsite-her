@@ -1,0 +1,24 @@
+{
+  "status": "passed_reproducibility_not_scientific_compatibility",
+  "new_tests": 17,
+  "related_tests": 68,
+  "replayed_products": [
+    "atomic_vectors.csv",
+    "occupations.csv",
+    "summary.json"
+  ],
+  "source_hashes_verified": 90,
+  "protected_hashes_verified": 150,
+  "previous_sources_verified": 99,
+  "archive_members": 63,
+  "output_receipts": 14,
+  "scripts_sha256": {
+    "scripts/mechanistic_analysis/import_mf10a_return.py": "6e30dc76f1fe90ef1515102a5df2b799f6058e8be4a4ce7aac211b797d91eca5",
+    "scripts/mechanistic_analysis/analyze_mf10a_return.py": "563a16c467dbbdce0f909da61fe147d052958c549ac4d28ebc01de9bb26c61e7",
+    "scripts/mechanistic_analysis/verify_mf10a_return.py": "349aa6829399a07cf8f07a525732a28c285a60f44d334a813e5d4ec2a02db651",
+    "tests/mechanistic_analysis/test_mf10a_return.py": "791a7c2a7a34a10a465478799540f471299173ae5ecbbf3f07cb661875b6d18d"
+  },
+  "new_DFT_by_agent": 0,
+  "scientific_acceptance": false,
+  "remote_SHA_matched": false
+}

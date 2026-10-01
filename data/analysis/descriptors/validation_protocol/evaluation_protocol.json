@@ -1,0 +1,31 @@
+{
+  "source": "data/processed/features/training_87d.csv",
+  "n": 995,
+  "composition_groups": 716,
+  "group_key": "sorted(M1,M2,M3,M4)",
+  "primary_seed": 20260907,
+  "alternative_seed": 20260908,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "software": {
+    "python": "3.13.9",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2"
+  },
+  "source_sha256": "3f36cec3dee408c552272a5c462148fee6bc4b15359112c92dec6ec49f43fd66",
+  "splits_sha256": "1734b189ca2fc8154c95af2d6dad7b4f871402ee05cf5671acb8d44e925a1933",
+  "target": "signed delta_G_H in eV",
+  "models": [
+    "De1_original",
+    "De1_unordered"
+  ],
+  "ridge_alpha": [
+    0.0,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "selection": "Inner-fold macro-M1 MAE, followed by smaller alpha for ties",
+  "parameters_per_model": 51
+}

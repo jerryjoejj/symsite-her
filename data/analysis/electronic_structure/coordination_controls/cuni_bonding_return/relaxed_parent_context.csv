@@ -1,0 +1,3 @@
+state,required_for_branch_gate,new_without_entropy_eV,relaxed_parent_without_entropy_eV,new_minus_relaxed_parent_without_entropy_eV,new_total_moment_muB,relaxed_parent_total_moment_muB,minimum_abs_total_moment_difference_allowing_flip_muB,new_max_force_eV_A,relaxed_parent_max_force_eV_A,new_force_below_0p02_eV_A
+clean,False,-592.67256168,-592.65984153,-0.01272015,1.8125,0.2665,1.546,0.0540403614533,0.0189010854186,False
+H,False,-596.24093305,-596.24093603,2.97999997656e-06,0.9998,-1,0.0002,0.0198051644527,0.0198800002264,True

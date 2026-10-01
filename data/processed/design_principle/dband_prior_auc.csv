@@ -1,0 +1,3 @@
+prior,auc,label,n
+dband_proximity_epsd_pt,0.476260,|dG|<=0.1,995
+dband_plus_chi_iter0,0.489968,|dG|<=0.1,995

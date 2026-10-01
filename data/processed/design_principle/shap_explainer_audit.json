@@ -1,0 +1,59 @@
+{
+  "n": 995,
+  "background_n": 100,
+  "seed": 42,
+  "torch_version": "2.12.1+cu126",
+  "shap_version": "0.52.0",
+  "models": {
+    "Symmetry": {
+      "maximum_absolute_additivity_residual_eV": 3.336754161864519e-07,
+      "median_absolute_additivity_residual_eV": 6.67714630253613e-08,
+      "n_above_0.01_eV": 0,
+      "mean_background_prediction_eV": 0.2731638252735138,
+      "site_percentages": {
+        "global": 53.64020431451381,
+        "M1": 39.95040455578382,
+        "M2": 3.6172741762706897,
+        "M34_sym": 2.79211695343168
+      },
+      "maximum_share_discrepancy_from_archive_pp": 1.3125742270858609e-08
+    },
+    "FlatMLP": {
+      "maximum_absolute_additivity_residual_eV": 3.969762474298477e-07,
+      "median_absolute_additivity_residual_eV": 3.6416167858988047e-08,
+      "n_above_0.01_eV": 0,
+      "mean_background_prediction_eV": 0.26951348781585693,
+      "site_percentages": {
+        "global": 60.14292394569232,
+        "M1": 31.478353932016507,
+        "M2": 5.488960504996534,
+        "M34_sym": 2.8897616172946354
+      },
+      "maximum_share_discrepancy_from_archive_pp": 1.415153860762075e-08
+    }
+  },
+  "source_md5": {
+    "models/ensemble/symmetry_ensemble_v2_for_shap.pth": "091dd163df046fb51a0f76600e52dfbf",
+    "models/ensemble/flat_mlp_nll_for_shap.pt": "6fe0543387365f0e8f71f601c8ad22f5",
+    "data/analysis/modeling/shap_three_way_meta.json": "9480a7e3f1021e8f3cb9a2342f986980",
+    "data/analysis/modeling/shap_xgb_87d_meta.json": "7662e94061aabc697744ea8bb32e2208",
+    "data/analysis/modeling/shap_flat_mlp_meta.json": "5384562e7eac8c27f01da6ef2c58b03c",
+    "scripts/modeling/shap_three_way_comparison.py": "b1622aa1782f201b27bf56e1f8ec1473",
+    "scripts/modeling/shap_flat_mlp_baseline.py": "a89892aa81a76412471f0f4acb35e5e5",
+    "scripts/modeling/_shap_common.py": "7549679086ae8863094de1358ac46177",
+    "data/processed/training/consolidated_ground_state_features_v2.csv": "1dff245aeef8e425be8c0bb60df7c8e8"
+  },
+  "feature_matrix_md5": "878e248462408738e4b3ba465c283382",
+  "formal_gate_pass": true,
+  "XGBoost87_status": "Archived site table exists but no saved fitted 87D model or per-sample SHAP matrix was found; original script fits without saving. No training performed.",
+  "neural_additivity_gate_pass": true,
+  "gate_scope": "The v9.2 neural additivity concern is resolved. XGBoost remains an explicitly archived descriptive comparator, without a retained fitted checkpoint.",
+  "decision": "S9a/b may describe the archived three-model attribution comparison; no physical mechanism or full tree-model reconstruction is claimed.",
+  "output_md5": {
+    "shap_Symmetry_audit_site.csv": "c741d8c470ab4ce9b798db09c885b6ce",
+    "shap_Symmetry_audit_values.npz": "13a489186dd8d216bbe3549cdb7b6dbd",
+    "shap_FlatMLP_audit_site.csv": "8015bad6b946d8a63752bd54ee3c1f41",
+    "shap_FlatMLP_audit_values.npz": "315fe3f8e7cb7e88b2dd7618166d14cd"
+  },
+  "background_ids_md5": "585c3d88d8cffc9b4a28a4e4d9d9c064"
+}

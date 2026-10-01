@@ -1,0 +1,32 @@
+{
+  "task": "NP.R7G",
+  "states": 334,
+  "pairs": 133,
+  "physical_ids": 108,
+  "states_outside_pairs": 68,
+  "geometry_bond_rows": 532,
+  "bonding_rows": 32,
+  "bonding_compositions": 5,
+  "standard_bonding_rows": 20,
+  "shorter_but_weaker": 0,
+  "pairs_mean_expansion": 131,
+  "sources": {
+    "Co95": 95,
+    "W2": 12,
+    "E34": 4,
+    "W26": 4,
+    "S1": 4,
+    "S2": 3,
+    "P1": 3,
+    "legacy_20260823": 3,
+    "W29": 2,
+    "P2": 2,
+    "R7Ni": 1
+  },
+  "maximum_direct_distance_error_A": 2.220446049250313e-16,
+  "fits": 0,
+  "inference": 0,
+  "DFT": 0,
+  "descriptor_accepted": false,
+  "scope": "Retrospective geometry diagnostic, not causal mediation or new validation"
+}

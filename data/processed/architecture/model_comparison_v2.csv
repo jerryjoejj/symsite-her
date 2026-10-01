@@ -1,0 +1,14 @@
+model,mae_mean,mae_std,r2,best_params
+XGBoost (tuned),0.10580,0.00920,0.94300,"n_estimators=300,max_depth=7,lr=0.04,subsample=0.8,colsample=0.8,min_child_weight=5"
+LightGBM,0.10820,,0.93870,
+Symmetry-aware ensemble V2,0.10950,0.01010,0.94140,"site_embed=32,fusion=(128,64),lr=1e-3,dropout=0.1,batch=64"
+GradientBoosting,0.11040,,0.93940,
+RandomForest,0.11140,,0.93920,
+CatBoost,0.11540,,0.94010,
+Flat MLP,0.12070,0.01080,0.93400,"hidden=(256,128,64),lr=1e-3,dropout=0.1,batch=64"
+GPR,0.13850,,0.92350,
+DecisionTree,0.16070,,0.88540,
+SVR,0.16770,,0.87850,
+AdaBoost,0.18180,,0.88760,
+BayesianRidge,0.22980,,0.82310,
+Lasso,0.42890,,0.43430,

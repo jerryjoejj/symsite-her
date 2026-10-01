@@ -1,0 +1,11 @@
+rank,feature,mean_abs_shap
+1,M1_cohesive_energy,0.054716048841412686
+2,M1_lattice_constant,0.04873961430226473
+3,M1_d_band_width,0.04639964620817374
+4,M1_d_electrons,0.04402787939105012
+5,M1_d_band_filling,0.04177429868955963
+6,cohesive_energy_weighted_mean,0.041241374362903455
+7,cohesive_energy_m1_deviation,0.040587918780216205
+8,d_electrons_weighted_mean,0.04010781471458565
+9,d_electrons_m1_deviation,0.03969590022374811
+10,melting_point_weighted_mean,0.03812496863814102

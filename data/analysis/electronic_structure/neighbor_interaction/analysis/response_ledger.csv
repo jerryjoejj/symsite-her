@@ -1,0 +1,4 @@
+energy_definition,J_Cu_eV,J_Mn_eV,I_Mn_minus_Cu_eV,classification,primary,native_Mn_response_eV,common_minus_native_Mn_response_eV
+without_entropy_eV,0.05455077,-0.12641696,-0.18096773,attenuation_supported,True,-0.00695253,-0.11946443
+E0_eV,0.05278969,-0.13455626,-0.18734595,attenuation_supported,False,-0.01321322,-0.12134304
+F_eV,0.05102862,-0.14269556,-0.19372418,attenuation_supported,False,-0.01947394,-0.12322162

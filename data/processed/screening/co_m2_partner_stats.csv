@@ -1,0 +1,17 @@
+M2,n,n_hit,hit_rate,is_precious,fisher_p_vs_Zn,relation_to_Zn
+Ir,105,101,96.190476,True,0.000000,better
+Ru,105,100,95.238095,True,0.000000,better
+Rh,105,90,85.714286,True,0.000695,better
+Pt,105,76,72.380952,True,0.298079,tie
+Zn,105,68,64.761905,False,,reference
+Fe,105,67,63.809524,False,1.000000,tie
+Mn,105,66,62.857143,False,0.885878,tie
+Pd,105,66,62.857143,True,0.885878,tie
+Cr,105,59,56.190476,False,0.258773,tie
+Cu,105,57,54.285714,False,0.159582,tie
+Ni,105,53,50.476190,False,0.050300,tie
+Ag,105,43,40.952381,True,0.000864,worse
+V,105,37,35.238095,False,0.000031,worse
+Au,105,36,34.285714,True,0.000016,worse
+Ti,105,35,33.333333,False,0.000009,worse
+Sc,105,24,22.857143,False,0.000000,worse

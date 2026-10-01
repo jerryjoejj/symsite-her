@@ -1,0 +1,16 @@
+{
+  "ML_inference": 0,
+  "direction_checks": 2,
+  "exact_panel_values": 6,
+  "new_DFT": 0,
+  "new_LOBSTER": 0,
+  "new_descriptor_accepted": false,
+  "replayed_artifacts": 7,
+  "scientific_fits": 0,
+  "status": "passed",
+  "task": "NP.R7Q",
+  "test_file_sha256": "23e6ea7fe9880a9bb64d73fd1da4ef58c548a0f9860257abc2df6d1f7f2201a9",
+  "test_fits": 0,
+  "verified_source_hashes": 19,
+  "verifier_sha256": "3771c1ea85cb9be3ec2dfae69d0bcb32ffa9af9f77e7b9a182469bc4177a7cd5"
+}

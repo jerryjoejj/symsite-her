@@ -1,0 +1,5 @@
+state,spin_factor_applied_to_anchor,new_without_entropy_eV,anchor_without_entropy_eV,energy_delta_new_minus_anchor_eV,abs_energy_delta_eV,energy_band_eV,energy_within_band,new_total_moment_muB,anchor_total_moment_muB,total_moment_residual_muB,abs_total_moment_residual_muB,max_abs_metal_local_moment_residual_muB,moment_band_muB,total_and_all_metal_moments_within_band,branch_path_passed,M1_moment_residual_muB,M2_moment_residual_muB,M3_moment_residual_muB,M4_moment_residual_muB,selected_alignment
+clean,1,-592.67256168,-592.64123635,-0.03132533,0.03132533,0.001,False,1.8125,-1.7047,3.5172,3.5172,1.002,0.02,False,False,0.335,1.002,0.033,0.008,False
+clean,-1,-592.67256168,-592.64123635,-0.03132533,0.03132533,0.001,False,1.8125,-1.7047,0.1078,0.1078,0.509,0.02,False,False,0.509,0,-0.011,-0.002,True
+H,1,-596.24093305,-596.24093154,-1.5099999473e-06,1.5099999473e-06,0.001,True,0.9998,0.9999,-0.0001,0.0001,0,0.02,True,True,0,0,0,0,True
+H,-1,-596.24093305,-596.24093154,-1.5099999473e-06,1.5099999473e-06,0.001,True,0.9998,0.9999,1.9997,1.9997,0.994,0.02,False,False,0.012,0.994,0.048,0.006,False

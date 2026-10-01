@@ -1,0 +1,18 @@
+==============================================================
+V2 top-30 combined validation (53 previous + 7 additional = 60)
+==============================================================
+V2 low-cost top-30 validation: 30/30 covered
+  |ΔG|≤0.1 hits 20/30 (67%), mean|ΔG|=0.072 eV
+  7 additional structures: 5/7 hits, mean|ΔG|=0.076
+==============================================================
+Best candidate recheck (smallest |ΔG_H| among all validated structures):
+  Co-Cu-Fe-Zn group=A_cheap_robust DFT=-0.0015 eV (|ΔG|=0.0015) prediction=0.0302
+  Best candidate rank in the V2 low-cost list: 27
+--- DFT results for 7 additional structures (V2 prediction vs DFT)---
+  Co-Cu-Ni-Zn: prediction -0.0285 → DFT -0.1001 (|ΔG|=0.1001)
+  Sc-Ni-Mn-V: prediction -0.0311 → DFT -0.0960 (|ΔG|=0.0960)
+  Co-Cr-Cu-Ni: prediction +0.0314 → DFT -0.0835 (|ΔG|=0.0835)
+  Co-Ni-Cr-Cu: prediction +0.0290 → DFT -0.0671 (|ΔG|=0.0671)
+  Co-Ni-Cr-Zn: prediction +0.0276 → DFT -0.0578 (|ΔG|=0.0578)
+  Sc-Mn-Co-Fe: prediction -0.0287 → DFT +0.0272 (|ΔG|=0.0272)
+  Co-Fe-Cu-V: prediction +0.0273 → DFT +0.1025 (|ΔG|=0.1025)

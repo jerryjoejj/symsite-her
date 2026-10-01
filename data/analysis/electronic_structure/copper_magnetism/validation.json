@@ -1,0 +1,10 @@
+{
+  "tests_passed": 14,
+  "failures": 0,
+  "errors": 0,
+  "scope": "readback and counterexample audit, not independent scientific validation",
+  "code_hashes": {
+    "scripts/mechanistic_analysis/audit_cun4_magnetic_context.py": "51544b10aa31fca228caf93a8c94ff4692f86d2ab3aa00e15a802f3b181d044a",
+    "scripts/mechanistic_analysis/verify_cun4_magnetic_context.py": "01c75909791f84c7fee14bbd7395506e8f9cbb3ed5290228d074ced109b07ebb"
+  }
+}

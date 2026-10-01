@@ -1,0 +1,5 @@
+pair_id,Co_atom,N_atom,cell_x,cell_y,cell_z,clean_distance_A,H_distance_A,clean_spin1_ICOHP_eV,clean_spin2_ICOHP_eV,clean_spin_sum_ICOHP_eV,H_spin1_ICOHP_eV,H_spin2_ICOHP_eV,H_spin_sum_ICOHP_eV,H_minus_clean_eV,joined_by_atom_id_and_periodic_cell
+"Co65-N9[0,0,0]",65,9,0,0,0,1.8685,1.87203,-1.92281,-1.93951,-3.86232,-1.89622,-1.8955,-3.79172,0.0706,True
+"Co65-N14[0,0,0]",65,14,0,0,0,1.86864,1.87205,-1.92292,-1.93895,-3.86187,-1.9023,-1.89462,-3.79692,0.06495,True
+"Co65-N13[0,0,0]",65,13,0,0,0,1.88895,1.89255,-1.88646,-1.90308,-3.78954,-1.86596,-1.86164,-3.7276,0.06194,True
+"Co65-N10[0,0,0]",65,10,0,0,0,1.88921,1.89228,-1.88441,-1.90143,-3.78584,-1.86067,-1.86064,-3.72131,0.06453,True

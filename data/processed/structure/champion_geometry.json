@@ -1,0 +1,16 @@
+{
+  "clean_M1_protrusion_A": 0.002730671302455853,
+  "clean_M2_protrusion_A": 0.008045631742850091,
+  "clean_M3_protrusion_A": 0.008197410791529844,
+  "clean_M4_protrusion_A": 0.036571767210901794,
+  "H_M1_protrusion_A": 0.10423792048403288,
+  "M1_H_A": 1.4487120230742387,
+  "H_index_1based": 69,
+  "H_M2_protrusion_A": 0.0048920894381842776,
+  "H_M3_protrusion_A": 0.008058749241623375,
+  "H_M4_protrusion_A": 0.0021127707786906627,
+  "mechanism_table_reference_M1_H_A": 1.447805844,
+  "difference_from_mechanism_table_A": 0.0009061790742388443,
+  "coordinate_scope": "Use the frozen structure CONTCAR snapshot for all S1 geometry; the later electronic-structure snapshot has M1-H=1.447805844 A. Do not splice these batches.",
+  "method": "ASE minimum-image vectors to the four closest N atoms; metal height is absolute distance from their least-squares plane (SVD). Atom indices are one-based CONTCAR indices."
+}

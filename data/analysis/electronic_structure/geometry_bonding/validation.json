@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "source_hashes": 392,
+  "independent_bond_distances": 1064,
+  "maximum_distance_error_A": 5.773159728050814e-15,
+  "independent_spearman_values": 45,
+  "raw_Decimal_rows": 19872,
+  "Decimal_shell_states_and_responses": 72,
+  "replayed_artifacts": 20,
+  "protected_files": 6,
+  "helper_sha256": {
+    "scripts/mechanistic_analysis/analyze_contcar_return.py": "52163911d2a402304f37dd73a1c4bb3456afe920970d5f63ed1946a3a2162259",
+    "scripts/mechanistic_analysis/analyze_s1_bonding_completed.py": "9fb71b2390f873bf6670308cbc218e1e731e18747b7797417e1295fd115977f8"
+  }
+}

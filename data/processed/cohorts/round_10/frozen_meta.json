@@ -1,0 +1,11 @@
+{
+  "n": 80,
+  "seed": 2025,
+  "models": [
+    "sym",
+    "xgb",
+    "rf"
+  ],
+  "sha256_16": "49a8cca718406d3b",
+  "note": "Predictions frozen before DFT submission to preserve blind evaluation."
+}

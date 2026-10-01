@@ -1,0 +1,2 @@
+population,n,total_sum_squares,between_M1_sum_squares,within_M1_sum_squares,between_M1_fraction,interpretation
+original995,995,483.47164942757,435.78462597578,47.687023451791,0.90136541923761,"descriptive target partition, not out-of-sample R2 or causal attribution"

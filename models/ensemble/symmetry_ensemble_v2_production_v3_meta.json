@@ -1,0 +1,23 @@
+{
+  "architecture": "SymmetryAwareEnsembleV2",
+  "n_train": 995,
+  "n_members": 10,
+  "epochs": 300,
+  "site_embed": 32,
+  "fusion_dims": [
+    128,
+    64
+  ],
+  "dropout": 0.1,
+  "batch_size": 64,
+  "lr": 0.001,
+  "weight_decay": 1e-05,
+  "input_dims": {
+    "M1": 16,
+    "M2": 13,
+    "M34_sym": 6,
+    "global": 52,
+    "total": 87
+  },
+  "train_mae": 0.06593284505389427
+}

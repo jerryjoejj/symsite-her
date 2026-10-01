@@ -1,0 +1,11 @@
+{
+  "tests_passed": 9,
+  "errors": 0,
+  "failures": 0,
+  "independent_decimal_populations": 44,
+  "code_hashes": {
+    "scripts/mechanistic_analysis/audit_mf6_orbital_response.py": "95fe9b1bc7588fbf94bb5a82d9bef6d3f13d5bff2560c7fd80dfd1bd0c801fbf",
+    "scripts/mechanistic_analysis/verify_mf6_orbital_response.py": "d869eaf73b50539c6b81c44a5b585a5306ae597d15b42874fcb24e3ca30f348e"
+  },
+  "scope": "fixed discrete printing audit; not an energy or magnetic convergence certificate"
+}

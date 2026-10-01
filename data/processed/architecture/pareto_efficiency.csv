@@ -1,0 +1,6 @@
+model,params,cv_mae,type,color,pareto_front
+Linear Regression,87,0.185,baseline,#95A5A6,False
+Random Forest,0,0.128,baseline,#95A5A6,False
+XGBoost,0,0.105,baseline,#E67E22,True
+Flat MLP Ensemble,64706,0.117,neural_baseline,#95A5A6,False
+Symmetric Ensemble (v2),32418,0.107,our_method,#27AE60,False

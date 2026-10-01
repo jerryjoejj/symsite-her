@@ -1,0 +1,11 @@
+rank,feature,mean_abs_shap
+1,M1_atomic_radius,0.040043036470601916
+2,d_electrons_m1_deviation,0.039241465953652
+3,valence_electrons_m1_deviation,0.03868718135798518
+4,atomic_radius_weighted_mean,0.03740477289996858
+5,d_band_width_m1_deviation,0.03719750736824802
+6,M1_d_electrons,0.03714766335143082
+7,M1_d_band_width,0.03616936444533897
+8,M1_d_band_filling,0.03481660616110827
+9,atomic_radius_m1_deviation,0.03340574316146066
+10,M1_cohesive_energy,0.03338054761473761

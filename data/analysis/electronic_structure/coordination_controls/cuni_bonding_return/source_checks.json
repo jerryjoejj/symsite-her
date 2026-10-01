@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-20T16:18:54.858568+00:00",
+  "sources": {
+    "scripts/mechanistic_analysis/analyze_r7_cuni_bonding_return.py": "d29d57765088d2517fb1524dffb0bd5334a5dbf12f049c2f8b5dce999fbcf9d8",
+    "scripts/mechanistic_analysis/verify_r7_cuni_bonding_return.py": "924a559ccc4e09392b0a559eaf0d991549dd0db4ecd3dc199eb6aed3688f0c16",
+    "tests/mechanistic_analysis/test_r7_cuni_bonding_return.py": "b3728f2fdf115d83658223225ff84437b42c809f8357f9ada2e23f15b9b7f571",
+    "data/raw/electronic_structure/nickel_branch_bonding/return_manifest_20260921.json": "c290b8b6fa8b209140b94643945b766fa54d95c11db9ea4f9d7b38ecee17554e",
+    "data/analysis/electronic_structure/coordination_controls/cuni_bonding_preflight/protocol.json": "e0bc0f6d583a5129d56f30edbf71296bf6e67f06d7c8fb98245f298375e18be9",
+    "data/protocols/calculations/r7_cuni_bonding/bundle_manifest.json": "19c11752855e95c0d1bbaf8186b0323075fc27c94f559b867692aa83f629e7f0",
+    "data/protocols/calculations/r7_cuni_bonding/protocol.json": "97fa0724efe0fdd41bd9ce0882ee87164595bda2b07d46bc19cff29910335d5b",
+    "data/protocols/calculations/r7_cuni_bonding/tasks.csv": "f44a9f1d401a40ca53f722c9c6e24bccbcd8ac50457c41a36cf8902ca0b33025",
+    "data/analysis/electronic_structure/coordination_controls/reference_data/bond_pairs.csv": "5d683635c326ffb91a689ae2ea14e6c74e27bf3d31eca1cd876777d2a9e7636f",
+    "data/analysis/electronic_structure/coordination_controls/reference_data/static_baselines.csv": "9acfbba13f15c3748eba2cdfc50c08e36aff59f7bcdf6c5a4fa6661943f57db4",
+    "data/analysis/electronic_structure/coordination_controls/reference_data/parent_static_comparison.csv": "0f0e1881b653c375fcbb7a3ced6ab5121f8e0711b2a18b446948ddd5976830ff",
+    "data/analysis/electronic_structure/coordination_controls/protocol_qbal.json": "cecd3561f0f5e6fcb4bb6217fd56b1ac653b46bdde1514b5ce7519abaae5f641",
+    "data/analysis/electronic_structure/coordination_controls/qbal_analysis/summary.json": "85beef8c3716ae83b30f0a90ab68d4644cc6bdfd221a2da2c8eb411f7a45c957",
+    "data/analysis/electronic_structure/coordination_controls/qbal_analysis/validation.json": "dd8661fb431ae4faa1b1b8ff775ec540e819dd6b11adf59b4f5f5af84d5c7d19",
+    "data/analysis/electronic_structure/model_link/S1_return_v2/adsorption_bonding_changes.csv": "2a3c1b04b952ec8ee54473f3bf5cc098b620c80aa6f60321c036fd96fbc05630",
+    "data/analysis/descriptors/first_static_controls/state_audit.csv": "e78d4881645f45c92ae6dbb8a7e9a82e40ba6283cce09007a719359effd55192",
+    "data/analysis/descriptors/first_static_controls/local_spin_states.csv": "8bee9b60cb48af1f10e8140dce19938785e0372d03e3365d1cf7ef73eeedb238",
+    "data/raw/electronic_structure/first_static_controls/extracted/sisso_P1_local_static_20260917_v1/results/task_002/attempt_2026-09-16T162847.947012_0000_30d967c8/OUTCAR": "2983304530e1195c153bb419709178624f6f24ec63600a8c3f977090ea54e96a",
+    "data/raw/electronic_structure/first_static_controls/extracted/sisso_P1_local_static_20260917_v1/results/task_002/attempt_2026-09-16T162847.947012_0000_30d967c8/OSZICAR": "d55f464cbd297fb8637ea900376c98ed21b75b5aae8f90279e29b5289b33ef3a",
+    "data/raw/electronic_structure/first_static_controls/extracted/sisso_P1_local_static_20260917_v1/results/task_002/attempt_2026-09-16T162847.947012_0000_30d967c8/ACF.dat": "b90238dd7adb11c8338372e3ad06b5a1cb83ebcc588ff6d9a4d2cb0f20a4a1c7",
+    "data/raw/electronic_structure/first_static_controls/extracted/sisso_P1_local_static_20260917_v1/results/task_002/attempt_2026-09-16T162847.947012_0000_30d967c8/PROCAR": "d018ea6d094d70cac8beb5a6c56edde684688ddfef8c6a3431d608b501a7cd82",
+    "data/raw/electronic_structure/first_static_controls/extracted/sisso_P1_local_static_20260917_v1/results/task_002/attempt_2026-09-16T162847.947012_0000_30d967c8/DOSCAR": "c032dac8f6d1c547a7e9f77c36492982e217dbd806612c41786116e74928a480",
+    "data/raw/electronic_structure/first_static_controls/extracted/sisso_P1_local_static_20260917_v1/results/task_003/attempt_2026-09-16T163104.615956_0000_39959d6e/OUTCAR": "649d3e65adbf97caf1c1dd987c29a5eb66b79416245c322acb3c492011d67f64",
+    "data/raw/electronic_structure/first_static_controls/extracted/sisso_P1_local_static_20260917_v1/results/task_003/attempt_2026-09-16T163104.615956_0000_39959d6e/OSZICAR": "2d29dea0af44cddd109e1b98ebf7a5b48116c6bfb382e1e001162a8cee2368e1",
+    "data/raw/electronic_structure/first_static_controls/extracted/sisso_P1_local_static_20260917_v1/results/task_003/attempt_2026-09-16T163104.615956_0000_39959d6e/ACF.dat": "f3bf930d9bc23459ae2fc79174620c4426e42557084244b75c5cdfcf370c9ad2",
+    "data/raw/electronic_structure/first_static_controls/extracted/sisso_P1_local_static_20260917_v1/results/task_003/attempt_2026-09-16T163104.615956_0000_39959d6e/PROCAR": "5749b57a92bdcc9a64e42f5ff1e5ab5717420ee37aa8ab0ccc000dd1c61e6faa",
+    "data/raw/electronic_structure/first_static_controls/extracted/sisso_P1_local_static_20260917_v1/results/task_003/attempt_2026-09-16T163104.615956_0000_39959d6e/DOSCAR": "8fc027b58ecf354c14d0d20812d26f06c17c479b347c21e99ee4d5712ee40bc1"
+  },
+  "protected_files": {
+    "data/analysis/electronic_structure/coordination_controls/cuni_bonding_preflight/protocol.json": "e0bc0f6d583a5129d56f30edbf71296bf6e67f06d7c8fb98245f298375e18be9",
+    "data/analysis/electronic_structure/coordination_controls/protocol_qbal.json": "cecd3561f0f5e6fcb4bb6217fd56b1ac653b46bdde1514b5ce7519abaae5f641",
+    "data/analysis/electronic_structure/coordination_controls/qbal_analysis/qbal_panel.csv": "5e3771e9ed6f68456d34e748408ca59bc16bef787e745ad47666cdfdacfd8f23",
+    "data/analysis/electronic_structure/coordination_controls/qbal_analysis/validation.json": "dd8661fb431ae4faa1b1b8ff775ec540e819dd6b11adf59b4f5f5af84d5c7d19"
+  },
+  "source_count": 27,
+  "protected_count": 4,
+  "returned_code_executed": false
+}

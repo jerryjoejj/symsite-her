@@ -1,0 +1,9 @@
+scheme,physical_id,H_minus_clean_Co_N_sum_ICOHP_eV,H_minus_clean_M2_N_sum_ICOHP_eV,H_minus_clean_M3_N_sum_ICOHP_eV,H_minus_clean_M4_N_sum_ICOHP_eV,Co_H_ICOHP_eV,Co_dz2_H_ICOHP_eV,Co_d_H_ICOHP_eV
+standard,Co-Cu-Cr-Zn,0.44179,-0.01935,-0.01828,-0.07937,-3.13601,-1.71215,-1.71567
+standard,Co-Cu-Fe-Zn,0.35268,-0.07063,0.05261,-0.0748,-3.14972,-1.71058,-1.71389
+standard,Co-Mn-Cr-Zn,0.50767,0.04645,-0.00962,-0.05134,-3.10443,-1.70858,-1.71192
+standard,Co-Mn-Fe-Zn,0.5355,-0.03464,-0.11954,-0.0252,-3.13333,-1.72197,-1.72563
+pv4p_where_defined,Co-Cu-Cr-Zn,0.4377,-0.02186,-0.07249,-0.08872,-3.15227,-1.71692,-1.7203
+pv4p_where_defined,Co-Cu-Fe-Zn,0.35268,-0.07063,0.05261,-0.0748,-3.14972,-1.71058,-1.71389
+pv4p_where_defined,Co-Mn-Cr-Zn,0.50769,0.08134,-0.06118,-0.05953,-3.14663,-1.7203,-1.72346
+pv4p_where_defined,Co-Mn-Fe-Zn,0.5388,-0.02301,-0.1223,-0.02369,-3.15656,-1.73047,-1.73362

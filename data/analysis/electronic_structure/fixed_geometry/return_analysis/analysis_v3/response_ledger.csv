@@ -1,0 +1,4 @@
+energy_definition,J_A_eV,J_B_eV,native_response_eV,B_geometry_leg_eV,A_geometry_leg_eV,interaction_JB_minus_JA_eV,classification
+without_entropy_eV,0.07870876,0.05455077,0.05776723,-0.02094153,0.00321646,-0.02415799,supported_two_positive_anchors
+E0_eV,0.07665426,0.05278969,0.05610274,-0.02055152,0.00331305,-0.02386457,supported_two_positive_anchors
+F_eV,0.07459974,0.05102862,0.05443824,-0.02016150,0.00340962,-0.02357112,supported_two_positive_anchors

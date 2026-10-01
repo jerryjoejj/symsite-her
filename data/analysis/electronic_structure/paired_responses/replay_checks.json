@@ -1,0 +1,26 @@
+{
+  "replayed_products": 14,
+  "products": [
+    "Co95_associations.csv",
+    "U_reference_sensitivity.csv",
+    "input_manifest.json",
+    "label_registry.csv",
+    "label_sources.csv",
+    "orbital_response_summary.csv",
+    "paired_electronic_changes.csv",
+    "pooled_electronic_associations.csv",
+    "source_inventory.csv",
+    "state_sources.csv",
+    "summary.json",
+    "supplementary_measurements.csv",
+    "target_variance_decomposition.csv",
+    "unified_states.csv"
+  ],
+  "byte_identical": true,
+  "local_document_links_checked": 95,
+  "code_sha256": {
+    "scripts/mechanistic_analysis/synthesize_existing_evidence.py": "a68b38f1de6ec76c8177a97e0df7124c7f1509313bba6158b41fb30a0d294055",
+    "scripts/mechanistic_analysis/verify_integrated_evidence.py": "c6a836ad442b7e7416d9e5ee5b370f12999a9a6412592faf52eb19b2a3c51cdf",
+    "tests/mechanistic_analysis/test_integrated_evidence.py": "6813f665786050bf73a44b1bb557943d5609478d840817eb1684aaa6bb7f08f3"
+  }
+}

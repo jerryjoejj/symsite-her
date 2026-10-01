@@ -1,0 +1,49 @@
+{
+  "ML_inference": 0,
+  "Ni_B_rows": 0,
+  "Ni_bonding_validation_complete": false,
+  "candidate": "Q_bal=(h34-h12)^2",
+  "development_panel_rows": 6,
+  "direct_elemental_replays": 1001,
+  "direction_checks": 2,
+  "directional_hypothesis": "larger Q_bal -> larger B -> more negative signed delta_G_H",
+  "independent_validation": false,
+  "known_B_rows": 4,
+  "new_DFT": 0,
+  "new_LOBSTER": 0,
+  "new_descriptor_accepted": false,
+  "next_decision": "Author review of the ordinal candidate; Ni 2+2 remains conditional and unauthorized.",
+  "original_87D_rows": 995,
+  "original_Co_rows": 95,
+  "panel_orders": {
+    "Cu": {
+      "Q_bal_descending": [
+        "Ni",
+        "Cr",
+        "Fe"
+      ],
+      "signed_label_ascending": [
+        "Ni",
+        "Cr",
+        "Fe"
+      ]
+    },
+    "Mn": {
+      "Q_bal_descending": [
+        "Ni",
+        "Fe",
+        "Cr"
+      ],
+      "signed_label_ascending": [
+        "Ni",
+        "Fe",
+        "Cr"
+      ]
+    }
+  },
+  "quantitative_87D_to_B_mapping_established": false,
+  "scientific_fits": 0,
+  "status": "completed_zero_fit_development_consistency_only",
+  "task": "NP.R7Q",
+  "test_fits": 0
+}

@@ -1,0 +1,5 @@
+geometry,composition,clean_key,H_key,clean_Cu_direction,H_Cu_direction,Cu_relative_reversal,delta_CuN4_muB,static_diagnostic_eV,Fe_minus_Cr_eV
+Co-Cu-Cr-Zn,Co-Cu-Cr-Zn,MF_native_0,MF_native_1,antiparallel,antiparallel,False,0.014000000000000012,-0.05665508,0.07870876
+Co-Cu-Cr-Zn,Co-Cu-Fe-Zn,MF_cross_0,MF_cross_1,parallel,parallel,False,-0.025000000000000022,0.02205368,0.07870876
+Co-Cu-Fe-Zn,Co-Cu-Cr-Zn,MF_cross_2,MF_cross_3,parallel,antiparallel,True,-1.76,-0.05343862,0.05455077
+Co-Cu-Fe-Zn,Co-Cu-Fe-Zn,MF_native_2,MF_native_3,parallel,antiparallel,True,-1.7429999999999999,0.00111215,0.05455077

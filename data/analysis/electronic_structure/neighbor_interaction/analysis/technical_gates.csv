@@ -1,0 +1,5 @@
+task_index,target,state,input_pass,runtime_pass,PAW_metadata_and_receipt_pass,expected_NELECT,outputs_verified,technical_pass,scf_steps
+0,Co-Mn-Cr-Zn,clean,True,True,True,318.000,12,True,56
+1,Co-Mn-Cr-Zn,H,True,True,True,319.000,12,True,52
+2,Co-Mn-Fe-Zn,clean,True,True,True,314.000,12,True,453
+3,Co-Mn-Fe-Zn,H,True,True,True,315.000,12,True,60

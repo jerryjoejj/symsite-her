@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-09-21T04:22:49.906322+00:00",
+  "status": "passed",
+  "task": "NP.R7N1R",
+  "archive_members_verified_on_import": 141,
+  "receipt_members_verified": 140,
+  "technical_states_replayed": 2,
+  "projection_spin_rows_replayed": 4,
+  "branch_spin_factor_cases_replayed": 4,
+  "branch_site_rows_replayed": 9,
+  "fixed_bonds_replayed": 4,
+  "native_spin_values_replayed": 16,
+  "deterministic_tables_replayed": 7,
+  "source_hashes_verified": 27,
+  "protected_hashes_verified": 4,
+  "primary_outcome": "electronic_branch_incompatible_clean_stop",
+  "scientific_order_applied": false,
+  "branch_conditioned_B_Ni_eV": 0.26202,
+  "new_fits": 0,
+  "new_inference": 0,
+  "agent_scientific_runs": 0
+}

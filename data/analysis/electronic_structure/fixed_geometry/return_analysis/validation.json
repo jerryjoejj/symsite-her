@@ -1,0 +1,14 @@
+{
+  "tests_passed": 15,
+  "legacy_mf3_regression_tests_passed": 35,
+  "legacy_scope": "Frozen package tests; historical withheld-version flag is superseded by author amendment for scientific interpretation",
+  "errors": 0,
+  "failures": 0,
+  "analysis": "data/analysis/electronic_structure/fixed_geometry/return_analysis/analysis_v3",
+  "code_hashes": {
+    "scripts/mechanistic_analysis/verify_mf3_return.py": "6d89c70a67e3e2e1e99fca83a80d175b6d78107ca7351294b7a0b8859d5f45e9",
+    "scripts/mechanistic_analysis/analyze_mf3_return.py": "8a818efc15c22378b7de909ce1312a84c9e28eca5fcbff7818b25fc9b52bd554",
+    "scripts/mechanistic_analysis/import_mf3_return.py": "09ae2c4ddc02ccd46166edc763ca2b6e8390ea4ed14c50d216c2095b2c9c78a7"
+  },
+  "scientific_scope": "nominal-protocol selected endpoints; not common magnetic branch"
+}

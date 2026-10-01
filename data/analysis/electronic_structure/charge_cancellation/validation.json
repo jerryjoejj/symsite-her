@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "source_protected_hashes": 1201,
+  "atom_differences": 1496,
+  "balance_fields": 1449,
+  "raw_spin_entries": 112,
+  "raw_bond_changes": 28,
+  "raw_ICOHPLIST_sources": {
+    "data/raw/electronic_structure/coordination_bonding/extracted_v2/sisso_S1_bonding_20260917_v4/results/task_000/attempt_2026-09-17T134137.012516_0000_e83f7c06/lobster/standard/attempt_084dc1f3adba487e81a330fa1d43bf49/ICOHPLIST.lobster": "bb80321406f850c421d6b51d7f6dd709b0c2eb5a984d47b76e5e42ddaf9b30af",
+    "data/raw/electronic_structure/coordination_bonding/extracted_v2/sisso_S1_bonding_20260917_v4/results/task_000/attempt_2026-09-17T134137.012516_0000_e83f7c06/lobster/pv4p/attempt_1aaf86cfc7b84783807a4357d8eadd7d/ICOHPLIST.lobster": "fc29cc25ae5644311871cfc127f54b0159148b1673182288ce54ddc5eeb016ad",
+    "data/raw/electronic_structure/coordination_bonding/extracted_v2/sisso_S1_bonding_20260917_v4/results/task_001/attempt_2026-09-17T134137.006975_0000_a37fcd22/lobster/standard/attempt_ac5a451f76ac4f8aac9c3773d801694c/ICOHPLIST.lobster": "e52ab099de3f946d7614f529b537b683f6bb0f0bc766367c89f8381b0ab7dfac",
+    "data/raw/electronic_structure/coordination_bonding/extracted_v2/sisso_S1_bonding_20260917_v4/results/task_001/attempt_2026-09-17T134137.006975_0000_a37fcd22/lobster/pv4p/attempt_9b150b93748d4680a590908b51a26d21/ICOHPLIST.lobster": "c6a00a7a3edd0948b545e09e22caa703e45d608a0b31cf9fdf687925c99c7764",
+    "data/raw/electronic_structure/coordination_bonding/extracted_v2/sisso_S1_bonding_20260917_v4/results/task_002/attempt_2026-09-17T134137.055132_0000_9301b9e5/lobster/standard/attempt_563d4042003e4d8bb339030c1d835183/ICOHPLIST.lobster": "89db6543f86039222e9c74475585a4df4acfe75838b50e283847ce816a449dfc",
+    "data/raw/electronic_structure/coordination_bonding/extracted_v2/sisso_S1_bonding_20260917_v4/results/task_003/attempt_2026-09-17T134137.055137_0000_70fc1525/lobster/standard/attempt_59452795b0a74437b2f7319bb7d8a341/ICOHPLIST.lobster": "fdd5bebda1577bc821c5a381913707553029c89d0f45505f17288b990d6592e7",
+    "data/raw/electronic_structure/coordination_bonding/extracted_v2/sisso_S1_bonding_20260917_v4/results/task_004/attempt_2026-09-17T135246.223448_0000_43fdfebd/lobster/standard/attempt_85066ff58b6346acb2f57022f16edcbe/ICOHPLIST.lobster": "470d79fb6ad472f0f50593e17a2032f2cb5882bc30061b374d45b81c69c52fa2",
+    "data/raw/electronic_structure/coordination_bonding/extracted_v2/sisso_S1_bonding_20260917_v4/results/task_004/attempt_2026-09-17T135246.223448_0000_43fdfebd/lobster/pv4p/attempt_0d7f1f2c5e8e40038f90f99b2c35061d/ICOHPLIST.lobster": "99f5c104a6a0ef594cb98c329762ef13ceb6c0b2bb5ea19963075a5561a91a50",
+    "data/raw/electronic_structure/coordination_bonding/extracted_v2/sisso_S1_bonding_20260917_v4/results/task_005/attempt_2026-09-17T135438.057396_0000_113cd429/lobster/standard/attempt_744e52fd8ad34ab1946847254e107984/ICOHPLIST.lobster": "0a46a0de37343febfc808158b943bacafca591ae0b362594441ab911d9f9317f",
+    "data/raw/electronic_structure/coordination_bonding/extracted_v2/sisso_S1_bonding_20260917_v4/results/task_005/attempt_2026-09-17T135438.057396_0000_113cd429/lobster/pv4p/attempt_89495c505f7a4fd0b2a4c6aa092b1052/ICOHPLIST.lobster": "d0cf8310a91d08226414f573d0f224575e2d45d01d676382be46f44f58b89530",
+    "data/raw/electronic_structure/coordination_bonding/extracted_v2/sisso_S1_bonding_20260917_v4/results/task_006/attempt_2026-09-17T135443.516361_0000_db817eef/lobster/standard/attempt_09197dc1e5c341c091e0bf383fa00f3d/ICOHPLIST.lobster": "c478b24fd05385b0252ccf8bf7596a18ab3d764387b7dbcdd0c4e4259e6a71ec",
+    "data/raw/electronic_structure/coordination_bonding/extracted_v2/sisso_S1_bonding_20260917_v4/results/task_006/attempt_2026-09-17T135443.516361_0000_db817eef/lobster/pv4p/attempt_52c2a0b2562946249243a9c17b4d38aa/ICOHPLIST.lobster": "94a4da750691a72169a4555495753cc60d87834917dc5512a5fec29127c83dcc",
+    "data/raw/electronic_structure/coordination_bonding/extracted_v2/sisso_S1_bonding_20260917_v4/results/task_007/attempt_2026-09-17T135551.942186_0000_86dd6416/lobster/standard/attempt_038c005b26604bf4a0f062fc7761d3d2/ICOHPLIST.lobster": "05c9211a048e4e8425bf5db8990d80588674f9e1f0b5c6bf3e4967fa62ec0a7a",
+    "data/raw/electronic_structure/coordination_bonding/extracted_v2/sisso_S1_bonding_20260917_v4/results/task_007/attempt_2026-09-17T135551.942186_0000_86dd6416/lobster/pv4p/attempt_31ceba43a789444d981da8ab55138731/ICOHPLIST.lobster": "4f78f0c95b503ce1134516ad1df73dbb2c2d7479ab6ddcdbfcb3cff99e739cef"
+  },
+  "new_fits": 0,
+  "new_DFT": 0
+}

@@ -1,0 +1,17 @@
+physical_id,state,variant,rows,closure_error_eV,archived_equal
+Co-Cu-Cr-Zn,clean,standard,1184,2.99999999999745e-05,True
+Co-Cu-Cr-Zn,clean,pv4p,1280,4.000000000004e-05,True
+Co-Cu-Cr-Zn,H,standard,1204,4.000000000004e-05,True
+Co-Cu-Cr-Zn,H,pv4p,1300,5.00000000003276e-05,True
+Co-Cu-Fe-Zn,clean,standard,1184,5.00000000001055e-05,True
+Co-Cu-Fe-Zn,H,standard,1204,3.00000000001965e-05,True
+Co-Mn-Fe-Zn,clean,standard,1184,4.000000000004e-05,True
+Co-Mn-Fe-Zn,clean,pv4p,1280,4.000000000004e-05,True
+Co-Mn-Fe-Zn,H,standard,1204,4.0000000000262e-05,True
+Co-Mn-Fe-Zn,H,pv4p,1300,4.000000000004e-05,True
+Co-Mn-Cr-Zn,clean,standard,1184,3.99999999995959e-05,True
+Co-Mn-Cr-Zn,clean,pv4p,1376,4.99999999998835e-05,True
+Co-Mn-Cr-Zn,H,standard,1204,5.00000000001055e-05,True
+Co-Mn-Cr-Zn,H,pv4p,1396,4.000000000004e-05,True
+Co-Cu-Ni-Zn,clean,standard,1184,3.9999999999818e-05,
+Co-Cu-Ni-Zn,H,standard,1204,3.00000000001965e-05,

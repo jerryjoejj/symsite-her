@@ -1,0 +1,9 @@
+metric,low,high,absolute_limit,result
+energy_change,-0.168804950,-0.168804930,.001,fail
+band_moment_change,0.780810970,0.780822970,.01,fail
+band_density_closure,-0.000099190,-0.000093090,.001,pass
+band_CHGCAR_closure,-0.000046445013266,-0.000039445011266,.001,pass
+Co_local_moment_change,1.2330,1.2350,.01,fail
+Mn_local_moment_change,-0.0060,-0.0040,.01,pass
+Fe_local_moment_change,0.0120,0.0140,.01,fail
+Zn_local_moment_change,-0.0040,-0.0020,.01,pass

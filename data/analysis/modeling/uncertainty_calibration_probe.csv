@@ -1,0 +1,4 @@
+model,mae,spearman_rho,spearman_p,mae_lo_epi,mae_hi_epi,ratio
+Flat MLP,0.13645,0.38994,0.00003,0.09084,0.18207,2.00422
+Sym V2 (plain),0.11101,0.36714,0.00008,0.07442,0.14760,1.98326
+Sym V2 (MC-dropout),0.11101,0.30791,0.00107,0.08150,0.14053,1.72432

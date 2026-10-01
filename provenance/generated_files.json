@@ -1,0 +1,15 @@
+{
+  "files": [
+    "SHA256SUMS",
+    "provenance/deduplicated_results.csv",
+    "provenance/excluded_calculation_files.csv",
+    "provenance/file_manifest.csv",
+    "provenance/generated_files.json",
+    "provenance/large_files.csv",
+    "provenance/result_path_mapping.csv",
+    "provenance/script_catalog.csv",
+    "provenance/table_index.csv",
+    "provenance/verification.json"
+  ],
+  "scope": "Repository indexes and file verification."
+}
