@@ -1,4 +1,0 @@
-energy_definition,delta_clean_eV,I_original_eV,I_single_replacement_eV,J_Mn_single_replacement_eV,scope
-without_entropy_eV,-0.16880494,-0.18096773,-0.01216279,0.04238798,mixed_protocol_single_endpoint_sensitivity_not_H1_retest
-E0_eV,-0.16436256,-0.18734595,-0.02298339,0.02980630,mixed_protocol_single_endpoint_sensitivity_not_H1_retest
-F_eV,-0.15992018,-0.19372418,-0.03380400,0.01722462,mixed_protocol_single_endpoint_sensitivity_not_H1_retest

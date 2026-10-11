@@ -1,7 +1,0 @@
-physical_id,M1_d_electrons,M2_d_electrons,d_electrons_M34_mean,d_electrons_M34_absdiff,M1,M2,M3,M4,h_M1,h_M2,h_M12_mean,h_M34_mean,capacity_imbalance_signed,Q_bal,De1_old,Q_capacity_old,original_label_eV,label_source,label_row_zero_based,B_standard_eV,B_available,independent_validation
-Co-Cu-Cr-Zn,7,10,7.5,5,Co,Cu,Cr,Zn,21,0,10.5,12.5,2,4,-7.5,37.5,-0.0774279999999999,data/analysis/descriptors/second_static_controls/panel_composition_summary.csv,0,0.44179000000000002,True,False
-Co-Cu-Fe-Zn,7,10,8,4,Co,Cu,Fe,Zn,21,0,10.5,12,1.5,2.25,-6,36,-0.0015070000000000001,data/analysis/descriptors/second_static_controls/panel_composition_summary.csv,1,0.35267999999999999,True,False
-Co-Cu-Ni-Zn,7,10,9,2,Co,Cu,Ni,Zn,21,0,10.5,8,-2.5,6.25,-3,24,-0.100094,data/analysis/descriptors/second_static_controls/panel_composition_summary.csv,2,,False,False
-Co-Mn-Cr-Zn,7,5,7.5,5,Co,Mn,Cr,Zn,21,25,23,12.5,-10.5,110.25,-5,25,0.061742999999999902,data/analysis/descriptors/second_static_controls/panel_composition_summary.csv,3,0.50766999999999995,True,False
-Co-Mn-Fe-Zn,7,5,8,4,Co,Mn,Fe,Zn,21,25,23,12,-11,121,-6,26,0.054470999999999999,data/processed/dft_validation/validation_membership.csv,5,0.53549999999999998,True,False
-Co-Mn-Ni-Zn,7,5,9,2,Co,Mn,Ni,Zn,21,25,23,8,-15,225,-8,34,-0.046745830000071799,data/processed/features/training_87d.csv,153,,False,False

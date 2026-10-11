@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "project_name": "SymSite-HER",
+  "files": {
+    "data/analysis/descriptors/frozen_expression_validation/record_inventory.csv": {
+      "sha256": "51a923a0b32096bf6e71a981cdc750354b8883100d890977e08f2853ae85af99",
+      "bytes": 21585,
+      "role": "reproduction_input"
+    },
+    "data/analysis/descriptors/site_role_controls/outer_models.json": {
+      "sha256": "418fdfb9ff9a5a67219498696fdbda6c87b73588ef12b7bf41d15f93e61c115b",
+      "bytes": 62911,
+      "role": "reproduction_input"
+    },
+    "data/analysis/descriptors/site_role_controls/predictions.csv": {
+      "sha256": "ab699688efb11e86e9657d129ab179ea2b6725dd4bffbea1680bfa18ed3bd8a5",
+      "bytes": 194983,
+      "role": "reproduction_input"
+    },
+    "data/analysis/descriptors/validation_protocol/splits.json": {
+      "sha256": "1734b189ca2fc8154c95af2d6dad7b4f871402ee05cf5671acb8d44e925a1933",
+      "bytes": 572445,
+      "role": "reproduction_input"
+    },
+    "data/elements/element_properties.json": {
+      "sha256": "d9a2d41fe9b7758eb74318dedb49ea0fae467ec548f5a8e06dbfc02affa9868a",
+      "bytes": 9698,
+      "role": "reproduction_input"
+    },
+    "data/processed/acquisition/ablation_acquisition_curves.csv": {
+      "sha256": "c255beb1c57549cd1f8128a5bedf847e98ce40c8c492fed9149accecba46140c",
+      "bytes": 8069,
+      "role": "reproduction_input"
+    },
+    "data/processed/architecture/ablation_strict_2x2_folds.csv": {
+      "sha256": "b7f11b6d1114a8f3b3beceb641c08e1a7b070dfe4dc7d651888b700ba3753fc8",
+      "bytes": 800,
+      "role": "reproduction_input"
+    },
+    "data/processed/architecture/arch_advantage_blindtest.csv": {
+      "sha256": "16e2fc62b0d1dfd37c274eb0f47f42c59747229145952a0fc470ce783d9b0b80",
+      "bytes": 10275,
+      "role": "reproduction_input"
+    },
+    "data/processed/architecture/blindtest_source_strata.csv": {
+      "sha256": "cf051392f4b55cc66e9966e75494f88511c21a15d3e99f422bd8a0f513055d0e",
+      "bytes": 6596,
+      "role": "training_or_supplementary_result"
+    },
+    "data/processed/architecture/blindtest_v2_predictions_v3.csv": {
+      "sha256": "a34a373e6e01a3d765902781d6d58f8f5db2f87a30c0e53059fc731e98a5ccd3",
+      "bytes": 5837,
+      "role": "reproduction_input"
+    },
+    "data/processed/architecture/model_comparison_v2.csv": {
+      "sha256": "607e43cb78cc57da0162c99d14094c02e868458028edf81d1e822957cffa7844",
+      "bytes": 638,
+      "role": "reproduction_input"
+    },
+    "data/processed/cohorts/round_0/selection/selected_500_structures.csv": {
+      "sha256": "83756b2b44a6d47cf6855d838ed8197fd6c8031b62eec89426f991c56edca5a0",
+      "bytes": 12735,
+      "role": "reproduction_input"
+    },
+    "data/processed/design_principle/descriptor_blindtest.csv": {
+      "sha256": "1aafff501ffec68cd8afbc743c8064af9882e424bfe6255a1456260f3cca83d2",
+      "bytes": 12219,
+      "role": "reproduction_input"
+    },
+    "data/processed/design_principle/design_principle_r2.csv": {
+      "sha256": "9fd5fc3c36dacd5b375d053ebe7a909ca2882fdda09e0325bb299c2dcc73e598",
+      "bytes": 392,
+      "role": "training_or_supplementary_result"
+    },
+    "data/processed/design_principle/shap_FlatMLP_audit_values.npz": {
+      "sha256": "0decb2270e0e7e326ddf0dce4ede3909cb24082bbbdbdd0af76f96a8d0089f63",
+      "bytes": 381112,
+      "role": "reproduction_input"
+    },
+    "data/processed/design_principle/shap_Symmetry_audit_values.npz": {
+      "sha256": "1e1fb9c6eefadaf62a9ee871b66e32076aa7a5480786f6c3227c48aeebe81325",
+      "bytes": 381600,
+      "role": "reproduction_input"
+    },
+    "data/processed/design_principle/shap_background_ids.csv": {
+      "sha256": "f5531cd46931a45fae3bcae083119b16437b2c336f9858bfa3d1d417a8941e68",
+      "bytes": 2808,
+      "role": "training_or_supplementary_result"
+    },
+    "data/processed/design_principle/shap_three_way_meta.json": {
+      "sha256": "eeb45e0563da03cd16ec4af9b16471235ec9b44301ccb0c7e5edd811bec1485d",
+      "bytes": 455,
+      "role": "training_or_supplementary_result"
+    },
+    "data/processed/design_principle/shap_xgb_87d_by_site.csv": {
+      "sha256": "1c81e148f8d199231a1156dd94b87beacb76bb93dd4117b6d8fe378406e109de",
+      "bytes": 225,
+      "role": "reproduction_input"
+    },
+    "data/processed/dft_validation/validation_membership.csv": {
+      "sha256": "e3b894df5e45eef1e22032655de55cd5401af8c50261bbbbb171f8780b2bf696",
+      "bytes": 8397,
+      "role": "training_or_supplementary_result"
+    },
+    "data/processed/dft_validation/verification_results.csv": {
+      "sha256": "9d07b59878e79c21cabc9e4340f1f1701e2740336639b8bfc93ac8ab52992a88",
+      "bytes": 4849,
+      "role": "reproduction_input"
+    },
+    "data/processed/dft_validation/verification_results_all60.csv": {
+      "sha256": "6348840a7f1c69ebedcbf4615d01d11e0b49c6e04fc1e18fedd5819d8ba8b05e",
+      "bytes": 5654,
+      "role": "reproduction_input"
+    },
+    "data/processed/electronic_structure/dz2_flank_results.csv": {
+      "sha256": "39887a9a7dc365b77972caaefc8b2b5f997ef69f47e386a29f8d2163ee408ac5",
+      "bytes": 652,
+      "role": "training_or_supplementary_result"
+    },
+    "data/processed/electronic_structure/orbital_pdos.csv": {
+      "sha256": "bf0b821bc2d7bf6611e3feea127bba58c576ddbf68f9c50ff5b1dd583bb3519b",
+      "bytes": 1548054,
+      "role": "training_or_supplementary_result"
+    },
+    "data/processed/electronic_structure/sc_co_mechanism_observations.csv": {
+      "sha256": "df2c98e67eb0f7d6e4c289fa92ac2a136d1f299f5702566fdac63808f65bf2d9",
+      "bytes": 1948,
+      "role": "reproduction_input"
+    },
+    "data/processed/electronic_structure/sc_co_orbital_occupancy.csv": {
+      "sha256": "d42a372002be3188a788b97c1a19f288d271c8b95fda35c20a75c7f6fc74d3ae",
+      "bytes": 3920,
+      "role": "training_or_supplementary_result"
+    },
+    "data/processed/electronic_structure/sc_co_pdos.csv": {
+      "sha256": "fca356bbf4359d19b0199fbcd199a03d70b27738994c39ae16d23baca07429f8",
+      "bytes": 2391166,
+      "role": "training_or_supplementary_result"
+    },
+    "data/processed/features/feature_dictionary.csv": {
+      "sha256": "979c3efff3013a8d44ffd8856cd1436c51659d89284e612b29baa5afed2570ad",
+      "bytes": 4083,
+      "role": "training_or_supplementary_result"
+    },
+    "data/processed/features/training_87d.csv": {
+      "sha256": "3f36cec3dee408c552272a5c462148fee6bc4b15359112c92dec6ec49f43fd66",
+      "bytes": 1002236,
+      "role": "reproduction_input"
+    },
+    "data/processed/screening/SI_table_cheap_candidates.csv": {
+      "sha256": "8adba98a6f0e2600bbfd94bebcc92d3accad8dc3fa776a4857be4c939146e4c6",
+      "bytes": 4995,
+      "role": "reproduction_input"
+    },
+    "data/processed/screening/activity_map_28560_v3.csv": {
+      "sha256": "0ee73ec9a3daa3f5fc0dc82e46feff10e5cc3974467068e85c558d944a7322ac",
+      "bytes": 1272784,
+      "role": "reproduction_input"
+    },
+    "data/processed/symmetry/M3M4_symmetry_pairs.csv": {
+      "sha256": "0d3c3f96681f657d8c0db5f94286e61dcce20c2309c43f0f72cf404effc1c9d0",
+      "bytes": 11651,
+      "role": "reproduction_input"
+    },
+    "data/processed/symmetry/early_tm_results.csv": {
+      "sha256": "7264d101effc0ad67403405296a1604fbccacf31b0029566e8dd2623087487a1",
+      "bytes": 3814,
+      "role": "reproduction_input"
+    },
+    "data/processed/symmetry/paired_exchange_energies.csv": {
+      "sha256": "8ac998dd39c1e8216aa2d301f00a1f65ecdf8fd59b065092a784599286a2179b",
+      "bytes": 12770,
+      "role": "training_or_supplementary_result"
+    },
+    "data/processed/symmetry/six_permutations_results.csv": {
+      "sha256": "30ac3bb030fe2c1a102582822b998702253c5e9b644de6d37ecdc6819077491c",
+      "bytes": 29456,
+      "role": "training_or_supplementary_result"
+    },
+    "data/processed/symmetry/verification_results.csv": {
+      "sha256": "dae24629890527a68b3a14158b217072c6b474a019eab0a1d468e49065adfe2b",
+      "bytes": 5453,
+      "role": "reproduction_input"
+    },
+    "data/processed/training/consolidated_ground_state.csv": {
+      "sha256": "bdf1b351dd97423f06d237679744cbe4b0fac9d7143d2f02f0f88eea3b8fa634",
+      "bytes": 94680,
+      "role": "reproduction_input"
+    },
+    "data/processed/training/consolidated_ground_state_features_v2.csv": {
+      "sha256": "e875decd1068bf7d9b6b419c6906a373e9d95ee82538e3a67f635be2e17584e2",
+      "bytes": 1091060,
+      "role": "training_or_supplementary_result"
+    },
+    "data/reproduction/CoN4_atomic_charges.csv": {
+      "sha256": "c3767bd325206932c72be425a10d800f320b99993b9dbac7a4d39cd62540bc2e",
+      "bytes": 4243,
+      "role": "reproduction_input"
+    },
+    "data/reproduction/CoN_bond_endpoints.csv": {
+      "sha256": "338157328ef32e2ac314a6ed6b56eeb7e9d33423c1b7a919827b8e5e9f777d0e",
+      "bytes": 2765,
+      "role": "reproduction_input"
+    },
+    "data/reproduction/CoN_orbital_endpoints.csv": {
+      "sha256": "9216d523aeb4f15655e76aaa91a7b95bfc47002a08e16cc57f6f9a2eaa87a657",
+      "bytes": 1253085,
+      "role": "reproduction_input"
+    },
+    "data/reproduction/adaptive_selection_100.csv": {
+      "sha256": "97ea46cee61a521097693f5690c644354ef9d083c0b878d05b6b1621cd299ae4",
+      "bytes": 13381,
+      "role": "reproduction_input"
+    },
+    "data/reproduction/fixed_geometry_Co_populations.csv": {
+      "sha256": "711a5fe0b1ec7d94d62d04c464527f7cffe3571b268bd5892a336c926fc4aac2",
+      "bytes": 330,
+      "role": "reproduction_input"
+    },
+    "data/reproduction/fixed_geometry_energies.csv": {
+      "sha256": "cd38957eee954e8aff1bb517e93813e27d37ffedcc174cdd6414f17d13f90409",
+      "bytes": 690,
+      "role": "reproduction_input"
+    },
+    "data/reproduction/paired_electronic_endpoints.csv": {
+      "sha256": "d6402c0b484ebba2226b4952ff6249475555fb1fcc86440f08b72863c6447d0c",
+      "bytes": 28235,
+      "role": "reproduction_input"
+    },
+    "data/reproduction/state_comparison_energies.csv": {
+      "sha256": "d6aa014fa61bbae34f9e355c651bbe4fd73eba9ab1d03ae983db38e6a2ca54c5",
+      "bytes": 917,
+      "role": "reproduction_input"
+    },
+    "data/reproduction/training_records_1206.csv": {
+      "sha256": "ccac15043520cce45cee6243f94114ca75c5d062f49e9175c9ba360c1a3bf800",
+      "bytes": 113373,
+      "role": "reproduction_input"
+    },
+    "models/descriptors/frozen_expressions.json": {
+      "sha256": "47901372cffe26f9505709d03056ff17d3aecc4b9ff626b7744cfd82447894aa",
+      "bytes": 38963,
+      "role": "reproduction_input"
+    },
+    "models/ensemble/symmetry_ensemble_v2_production_v3.pt": {
+      "sha256": "e2c0e4e7234877467bf0973bf070543356be0d6590726acf51da1e9b316470dc",
+      "bytes": 1485907,
+      "role": "reproduction_input"
+    },
+    "models/ensemble/symmetry_ensemble_v2_production_v3_meta.json": {
+      "sha256": "3c3ced7e8a8882b40b9672940f713c013054dea68484bed27264775fd187cdd2",
+      "bytes": 378,
+      "role": "training_or_supplementary_result"
+    }
+  }
+}

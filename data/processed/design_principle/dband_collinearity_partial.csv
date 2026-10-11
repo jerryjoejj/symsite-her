@@ -1,5 +1,0 @@
-metric,value,p_value
-r(eps_d, valence)_17_elements,-0.865206,7.316e-06
-r(dG, eps_d)_995_struct,-0.336481,9.201e-28
-r(dG, valence)_995_struct,0.558187,1.419e-82
-partial_r(dG, eps_d | valence)_995,0.363892,1.625e-32

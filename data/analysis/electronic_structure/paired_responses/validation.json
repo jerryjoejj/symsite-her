@@ -1,9 +1,0 @@
-{
-  "source_and_protected_files_unchanged": 939,
-  "state_references": 346,
-  "unique_outputs": 320,
-  "paired_scalar_differences_verified": 903,
-  "weighted_correlations_verified": 24,
-  "reference_cycles_verified": 6,
-  "checks_passed": true
-}

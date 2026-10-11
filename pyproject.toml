@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "symsite-her"
-version = "0.1.0.dev0"
+version = "0.2.0"
 description = "Symmetry-guided discovery and site-resolved bonding analysis of multimetallic single-atom HER catalysts"
 requires-python = ">=3.10"
 dependencies = [

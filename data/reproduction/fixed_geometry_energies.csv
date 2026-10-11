@@ -1,0 +1,9 @@
+key,target,geometry_donor,state,without_entropy_eV,E0_eV,F_eV
+cross_0,Co-Cu-Fe-Zn,Co-Cu-Cr-Zn,clean,-594.74597157,-594.76111602,-594.77626046
+cross_1,Co-Cu-Fe-Zn,Co-Cu-Cr-Zn,H,-598.20491789,-598.20492297,-598.20492805
+cross_2,Co-Cu-Cr-Zn,Co-Cu-Fe-Zn,clean,-596.55669445,-596.57398491,-596.59127536
+cross_3,Co-Cu-Cr-Zn,Co-Cu-Fe-Zn,H,-600.09113307,-600.09113307,-600.09113307
+native_0,Co-Cu-Cr-Zn,Co-Cu-Cr-Zn,clean,-596.71506836,-596.73226223,-596.74945611
+native_1,Co-Cu-Cr-Zn,Co-Cu-Cr-Zn,H,-600.25272344,-600.25272344,-600.25272344
+native_2,Co-Cu-Fe-Zn,Co-Cu-Fe-Zn,clean,-594.89292397,-594.90870612,-594.92448827
+native_3,Co-Cu-Fe-Zn,Co-Cu-Fe-Zn,H,-598.37281182,-598.37306459,-598.37331736

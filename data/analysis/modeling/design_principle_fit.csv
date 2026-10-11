@@ -1,3 +1,0 @@
-k_features,features,r2_cv,note
-96,all,-26.10997615417773,Full 96D features
-5,"M1_atomic_radius, M1_d_band_center, M1_surface_energy...",-32.162812591022885,Top 5 M1 descriptors + degree-2 interactions

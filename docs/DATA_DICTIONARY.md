@@ -1,50 +1,39 @@
-# Data guide
+# Data dictionary
 
-[table_index.csv](../provenance/table_index.csv) lists the CSV tables, record counts and column names.
+## Identities and datasets
 
-## Main conventions
+`M1` is the adsorption center, `M2` the neighbor, and `M3`/`M4` the remote metals. A physical ID joins M1, M2 and the lexicographically sorted remote pair with hyphens. All four elements differ. The 17 elements define 57,120 ordered arrangements and 28,560 physical IDs.
 
-| Field or quantity | Meaning |
+`training_records_1206.csv` retains final energy records before deduplication. `record_id` identifies a row in its cohort: `initial` (500), `adaptive` (98), or `reference` (608). The generated `training_995_rebuilt.csv` identifies the source records furnishing each composition's minimum clean and H energies.
+
+The adaptive inventory includes all 100 selections. Two have blank energies and `result_status=no_valid_result`; 98 supply training labels. `ordered_space_index` identifies the selected ordering. The initial 500-list identifies the cluster, physics and random selection strategies.
+
+The eight-repeat retrospective comparison uses the 995 compositions separately. Seed 42+r assigns the first 200 permuted rows to the initial set and 795 to the candidate pool. The default run exports those memberships; fresh acquisition training exports every newly selected batch.
+
+The 110 held-out physical IDs do not overlap training. The 60 DFT validations contain 40 prespecified and 20 additional candidates; two share training IDs. Output membership columns identify overlaps and the all-3d top-30 subset.
+
+## Units and signs
+
+| Quantity | Definition |
 |---|---|
-| `M1`, `M2`, `M3`, `M4` | Adsorption center, neighbor and two remote metal sites |
-| `phys_id`, `physical_id` | M1/M2 identity followed by sorted M3/M4, subject to each archived table's text serialization |
-| `E_clean`, `E_H` | Retained clean/H total-energy labels in eV; consult the specific protocol for energy definition |
-| `delta_G_H`, `dft` | Signed hydrogen adsorption free energy in eV, for the corresponding dataset |
-| `pred_dG`, `pred`, `dG_SymEns` | Signed model prediction in eV; distinguish production data from historical rounded SI tables |
-| `abs_dG` | Absolute predicted free energy in the screening tables |
-| `epistemic`, `epi` in current v3 screening/held-out CSVs | Epistemic standard deviation in eV; the Python model object's `.epistemic` field instead contains variance |
-| `seen_training`, `in_blind110` | Training and held-out membership flags |
-| `pre_specified`, `cohort`, `in_top30` | Selection/evaluation cohort flags |
-| `DFT_hit_0p1` | Archived indicator for absolute DFT free energy at most 0.1 eV |
-| `source`, `protocol`, `source_family`, `mesh` | Calculation batch, protocol, source group and reciprocal-space mesh |
-| ICOHP | Integrated crystal orbital Hamilton population; negative denotes net bonding in the retained convention |
-| B | Sum of H-minus-clean Co–N ICOHP changes in a composition, in eV |
-| J | Fe-minus-Cr adsorption electronic-energy difference at fixed reference geometry; retained records specify energy without entropy |
+| `E_clean`, `E_H` | eV; final energies used for adsorption labels |
+| `delta_G_H` | eV; `E_H - E_clean + 3.481`, including H2 and thermodynamic corrections |
+| `pred_dG`, `prediction` | eV; predicted adsorption free energy |
+| `epistemic` / `epistemic_std` in tables | eV; standard deviation of member means. The ensemble API's `prediction.epistemic` is variance in eV² |
+| `aleatoric` in model API | eV²; mean predicted variance across members |
+| `total_std` in model API | eV; square root of summed aleatoric and epistemic variances |
+| `q_clean_e`, `q_H_e` | e; positive Bader charge relative to valence electrons; positive H-minus-clean change means electron loss |
+| `M1_d_e_*`, `M1_dz2_e_*` | electrons; projected clean/H populations |
+| `M1_moment_abs_muB_*` | Bohr magnetons; absolute local Co moment |
+| `ICOHP_eV` | eV; signed bond population; negative means bonding |
+| `B_eV` | eV; summed H-minus-clean ICOHP change over four Co–N bonds and both spins |
+| `r_clean_A`, `r_H_A` | Å; paired Co–N distances |
+| `without_entropy_eV` | eV; final total energy excluding the entropy term |
+| `J_meV` | meV; 1000 times Fe-minus-Cr difference in `E_H - E_clean` at fixed geometry |
+| `D_r`, `D_e` | Dimensionless; radii in pm are divided by 100 pm; d counts are tabulated elemental counts |
 
-NaN and empty cells denote unavailable values. Technical-completion and electronic-state comparison results are recorded in separate fields.
+`standard` and `pv4p` identify the two orbital-projection bases. Bond rows distinguish atoms, periodic cells, orbitals and spins; total and resolved rows are aggregated separately. `source`, `clean_key` and `H_key` distinguish repeated electronic evaluations of one composition. There are 129 pairs for 107 physical IDs.
 
-## Dataset membership and energy labels
+The elemental property file supplies model inputs. The feature dictionary maps 96 descriptors to the 87-feature input, in blocks of 16, 13, 6 and 52. Processed PDOS tables contain energy grids and spin/orbital projections used in the manuscript.
 
-- The 995 training compositions and 110 held-out compositions have disjoint physical IDs.
-- The 60 candidate-validation records include two training compositions and one held-out composition. `validation_membership.csv` identifies each cohort and intersection.
-- The expanded electronic dataset contains 129 clean/H record pairs for 107 compositions, with batch identifiers distinguishing repeated calculations.
-- Training labels use the lowest clean and H energies selected separately within each physical ID, followed by the +3.481 eV conversion to hydrogen adsorption free energy.
-
-## Key files
-
-- `data/processed/features/training_87d.csv`: 995 records, six identity/label fields and 87 features. The feature dictionary identifies each column; the input groups are M1/M2/M34/global with 16/13/6/52 features, respectively.
-- `data/processed/dft_validation/validation_membership.csv`: all 60 observations and their intersecting cohorts. Use this file to select the evaluation denominator.
-- `data/processed/screening/activity_map_28560_v3.csv`: current full-space predictions. Earlier comparison files retain their model-version identifiers.
-- `data/analysis/electronic_structure/`: paired electronic responses, Co–N bonding and state comparisons; see the [electronic-structure guide](../data/analysis/electronic_structure/README.md).
-- `data/processed/electronic_structure/orbital_pdos.csv`: 12,006 energy-grid records for six clean/H electronic states, with Fermi levels, orbital occupations and spin-resolved PDOS.
-- `data/analysis/descriptors/expression_validation/final_coefficients.csv`: use `All_De1_original` for the frozen D01 expression. Its full-precision coefficients multiply the stated inputs directly.
-
-For formulas, cohort definitions and electronic-state comparisons, see Methods, SI Sections S1.10–S1.12, and [core content map](CORE_CONTENTS.md).
-## Reading CSV files
-
-The table index counts nonempty records read with Python's CSV reader. Two tables use the following text conventions:
-
-- `data/processed/design_principle/dband_collinearity_partial.csv`: four metric labels contain unquoted commas, so those records have four fields under a three-column header. Treat the final two fields as value and p-value and the preceding text as the metric label.
-- `data/processed/screening/m1_m2_hitrate.csv`: the final line begins with `# Co_row_chi2_test` and contains summary metadata. Use a comment-aware reader or omit that footer when reading the 17-by-17 matrix.
-
-Rows with differing field counts are identified by `unequal_width_rows` in `provenance/table_index.csv`.
+`provenance/table_index.csv` lists every CSV's row count and columns. `code/input_manifest.json` identifies scientific inputs and models by SHA-256 and byte count.

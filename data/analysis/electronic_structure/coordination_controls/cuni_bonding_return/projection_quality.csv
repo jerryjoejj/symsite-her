@@ -1,5 +1,0 @@
-task_index,physical_id,state,variant,basis_functions,first_ignored_band,spin,charge_spilling_percent,projected_electrons,expected_electrons,projected_electron_error_e,discarded_band_occupations_e,overlap_warning_count,overlap_file_present,occupied_bands_at_1e_6,reported_max_deviation,full_max_deviation,occupied_max_deviation,overlap_value_kind,missing_file_upper_bound,occupied_subspace_passed,projection_gate_passed
-0,Co-Cu-Ni-Zn,clean,standard,292,293,1,1.03,314,314,0,0,2,True,158,0.00445185,0.005976,1.97806e-07,measured,,True,True
-0,Co-Cu-Ni-Zn,clean,standard,292,293,2,1.05,314,314,0,0,2,True,157,0.000622734,0.00062,4.83941e-08,measured,,True,True
-1,Co-Cu-Ni-Zn,H,standard,293,294,1,1.03,315,315,0,0,0,False,158,,,,upper_bound_from_no_1e-5_warning,1e-05,True,True
-1,Co-Cu-Ni-Zn,H,standard,293,294,2,1.04,315,315,0,0,0,False,157,,,,upper_bound_from_no_1e-5_warning,1e-05,True,True

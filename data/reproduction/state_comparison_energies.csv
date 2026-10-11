@@ -1,0 +1,15 @@
+key,target,geometry_donor,state,without_entropy_eV,evaluation
+mf8_0,Co-Mn-Cr-Zn,Co-Cu-Fe-Zn,clean,-602.80294882,original
+mf8_1,Co-Mn-Cr-Zn,Co-Cu-Fe-Zn,H,-606.28347037,original
+mf8_2,Co-Mn-Fe-Zn,Co-Cu-Fe-Zn,clean,-601.00670992,original
+mf8_3,Co-Mn-Fe-Zn,Co-Cu-Fe-Zn,H,-604.61364843,original
+cu_cross_2,Co-Cu-Cr-Zn,Co-Cu-Fe-Zn,clean,-596.55669445,original
+cu_cross_3,Co-Cu-Cr-Zn,Co-Cu-Fe-Zn,H,-600.09113307,original
+cu_native_2,Co-Cu-Fe-Zn,Co-Cu-Fe-Zn,clean,-594.89292397,original
+cu_native_3,Co-Cu-Fe-Zn,Co-Cu-Fe-Zn,H,-598.37281182,original
+native_mn_0,Co-Mn-Cr-Zn,Co-Mn-Cr-Zn,clean,-603.05908252,original
+native_mn_1,Co-Mn-Cr-Zn,Co-Mn-Cr-Zn,H,-606.47848597,original
+native_mn_2,Co-Mn-Fe-Zn,Co-Mn-Fe-Zn,clean,-601.2547021,original
+native_mn_3,Co-Mn-Fe-Zn,Co-Mn-Fe-Zn,H,-604.68105808,original
+mf9,Co-Mn-Fe-Zn,Co-Cu-Fe-Zn,clean,-601.17551486,restart
+ncl_baseline,Co-Mn-Fe-Zn,Co-Cu-Fe-Zn,clean,-601.17688933,noncollinear

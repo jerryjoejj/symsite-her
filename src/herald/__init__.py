@@ -5,9 +5,6 @@ Deep-ensemble screening of multimetallic single-atom HER catalysts.
 Modules:
     models: Deep ensembles with epistemic and aleatoric uncertainty.
     acquisition: Adaptive exploration and optimization weights.
-    dft: Parse saved energies and convert to adsorption free energies.
-    data: Load composition spaces and merge training records.
-    sampling: Select initial samples with a mixed strategy.
 
 Energy convention:
     delta_G_H = E(H_site) - E(clean) + 3.481 eV, including the H2 reference.

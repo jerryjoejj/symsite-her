@@ -1,7 +1,0 @@
-physical_id,source,seed,U_key,U_energy_eV,D_eV,A_eV,total_eV,scope
-Co-Cr-Cu-Zn,S2,default,b5d77aae18e74f73722c51a418731318c0f73725c16cb76c9b3aac943c761e8b,-596.66600426,0.15901192000001,-3.56465724,-3.40564532,fixed archived S2 C/H; all available U references; not unique ground-state decomposition
-Co-Cr-Cu-Zn,S3,seed_U,dc06dbeb6afe13155cc41eb4cd0fe35e5848394614ba291cc644e57ca3faf229,-595.50614291,1.31887327,-4.72451859,-3.40564532,fixed archived S2 C/H; all available U references; not unique ground-state decomposition
-Co-Cr-Cu-Zn,S3,seed_H,22cf609e38f510147ac3a96c23d9dc9fc8a2674e18ad27ce8da2f2d8dd7ca105,-596.64923363,0.17578255000001,-3.58142787,-3.40564532,fixed archived S2 C/H; all available U references; not unique ground-state decomposition
-Co-Mn-Cu-Zn,S2,default,350ef07167d93b137057540118c4c3a49d0160aa3c3f251c04d10e87f15bb62a,-596.01680367,0.068119570000022,-3.5507792300001,-3.4826596600001,fixed archived S2 C/H; all available U references; not unique ground-state decomposition
-Co-Mn-Cu-Zn,S3,seed_U,13fe1171150e9ad05fb77242efadee9113ca137edd3c92875651b17d07f5e475,-596.01540907,0.069514169999934,-3.55217383,-3.4826596600001,fixed archived S2 C/H; all available U references; not unique ground-state decomposition
-Co-Mn-Cu-Zn,S3,seed_H,ba082776572735a59bcaf82f8f6ff418f085ce9ef33c0b8671c44e9f2e949ac1,-596.02081196,0.06411128000002,-3.5467709400001,-3.4826596600001,fixed archived S2 C/H; all available U references; not unique ground-state decomposition

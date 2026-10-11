@@ -1,4 +1,0 @@
-physical_id,composition_group,original_label_eV,training_ID_seen,training_group_seen,project_blind,label_source,label_row_zero_based,D01
-Co-Cu-Cr-Zn,Co-Cr-Cu-Zn,-0.0774279999999999,False,False,False,data/analysis/descriptors/second_static_controls/panel_composition_summary.csv,0,0.0241010880411795
-Co-Cu-Fe-Zn,Co-Cu-Fe-Zn,-0.001507,False,False,False,data/analysis/descriptors/second_static_controls/panel_composition_summary.csv,1,0.0216359847011774
-Co-Cu-Ni-Zn,Co-Cu-Ni-Zn,-0.100094,False,False,False,data/analysis/descriptors/second_static_controls/panel_composition_summary.csv,2,0.0157057143129063

@@ -1,3 +1,0 @@
-entries,spins,grid_points,energy_min_eV,energy_max_eV,COHPCAR_EF_vs_ICOHPLIST_max_error_eV,target_right_rectangle_max_error_eV,target_spin_curves_checked,state,orbital_sum_max_error_eV
-593,2,6002,-56.001,10.01,0,7.5799999999e-06,8,clean,3.99999999998e-05
-603,2,6002,-56.001,10.01,0,5.04000000023e-06,8,H,3.00000000002e-05

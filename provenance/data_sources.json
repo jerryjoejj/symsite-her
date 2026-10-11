@@ -1,0 +1,60 @@
+{
+  "project_name": "SymSite-HER",
+  "engine": "Python",
+  "engine_version": "3.13.9",
+  "structure_id": "M1-M2-sort(M3,M4)",
+  "units": {
+    "energy": "eV",
+    "energy_contrast": "meV",
+    "distance": "angstrom",
+    "charge": "elementary charge",
+    "magnetic_moment": "Bohr magneton"
+  },
+  "datasets": [
+    {
+      "path": "data/reproduction/training_records_1206.csv",
+      "source": "Final paired total-energy results for 500 initial, 98 adaptive and 608 reference records",
+      "transformation": "Select composition and final energy columns; assign stable cohort record IDs. Recalculate labels and independently minimize clean/H energies at runtime."
+    },
+    {
+      "path": "data/reproduction/adaptive_selection_100.csv",
+      "source": "Saved 100-member adaptive selection and 98 final valid results",
+      "transformation": "Left join final energies by ordered-space index; retain empty results for the other two selections."
+    },
+    {
+      "path": "data/reproduction/paired_electronic_endpoints.csv",
+      "source": "Published paired electronic changes, 129 clean/H records",
+      "transformation": "Select population and absolute local-moment endpoints and paired identifiers."
+    },
+    {
+      "path": "data/reproduction/CoN4_atomic_charges.csv",
+      "source": "Common-protocol Cu/Cr, Cu/Fe, Cu/Ni, Mn/Cr and Mn/Fe charge results",
+      "transformation": "Select Co and its four coordinating N atoms; retain clean/H Bader charge endpoints."
+    },
+    {
+      "path": "data/reproduction/CoN_bond_endpoints.csv",
+      "source": "Final matched Co-N distance and ICOHP tables for both projection bases",
+      "transformation": "Select composition, atom, periodic-cell, basis and paired endpoint columns."
+    },
+    {
+      "path": "data/reproduction/CoN_orbital_endpoints.csv",
+      "source": "Final bond- and orbital-resolved ICOHP results for the four Cu/Mn, Cr/Fe compositions",
+      "transformation": "Byte-identical copy of the published result table, with a unified public filename."
+    },
+    {
+      "path": "data/reproduction/fixed_geometry_energies.csv",
+      "source": "Eight final Cu-neighbor fixed-geometry energy endpoints",
+      "transformation": "Select identity, state, reference geometry and final energy definitions."
+    },
+    {
+      "path": "data/reproduction/fixed_geometry_Co_populations.csv",
+      "source": "Final Co site populations for the same eight endpoints",
+      "transformation": "Select Co d and dz2 populations keyed to the energy endpoints."
+    },
+    {
+      "path": "data/reproduction/state_comparison_energies.csv",
+      "source": "Final endpoint energies used in the SI electronic-state comparison",
+      "transformation": "Combine the original endpoint energies with the restart and noncollinear final clean energies; retain evaluation labels."
+    }
+  ]
+}

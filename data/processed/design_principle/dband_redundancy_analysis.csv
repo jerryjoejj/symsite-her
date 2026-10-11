@@ -1,7 +1,0 @@
-model,descriptors,cv_r2
-poly2_linreg,5 (with d_band_center),0.893833
-poly2_linreg,4 (drop d_band_center),0.865699
-poly2_linreg,delta_R2_5minus4,0.028134
-poly2_ridge0.1,5 (with d_band_center),0.893845
-poly2_ridge0.1,4 (drop d_band_center),0.858526
-poly2_ridge0.1,delta_R2_5minus4,0.035319

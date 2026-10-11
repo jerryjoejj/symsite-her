@@ -1,52 +1,49 @@
 # SymSite-HER
 
-Code, models and result data for **Multimetallic Single-Atom Catalysts for Hydrogen Evolution: Symmetry-Guided Discovery and Metal–N Bonding Modulation**.
+Data, trained models and executable analyses for **Multimetallic Single-Atom Catalysts for Hydrogen Evolution: Symmetry-Guided Discovery and Cooperative Site Effects**, prepared for Nature Communications.
 
-SymSite-HER represents the adsorption center, neighboring metal and unordered remote-metal pair separately. It includes composition features, ensemble prediction, candidate screening, DFT validation results, and site-resolved electronic and bonding analysis.
+## Reproduce the results
 
-[Content guide](docs/CORE_CONTENTS.md) · [Data guide](docs/DATA_DICTIONARY.md) · [Usage](docs/REPRODUCIBILITY.md)
+Use Python 3.13 on Linux:
 
-## Quick start
+```bash
+python -m pip install --index-url https://download.pytorch.org/whl/cpu torch==2.12.1
+python -m pip install -r environment/requirements-reproduce.txt
+bash code/run
+```
+
+The run rebuilds the training labels and features, predicts all 28,560 compositions with the supplied ten-member ensemble, repeats statistical comparisons, refits the empirical expressions, and calculates electronic and bonding responses from final result tables. It writes 201 numerical checks and 43 CSV tables to `outputs/nc_reproduction/`, together with fitted coefficients and `report.json`. Failed checks return a nonzero exit status. Use `--output outputs/another_run` to repeat the run in a new directory.
+
+## Included data
+
+| Data | Size | Location |
+|---|---:|---|
+| Complete training source records | 1,206: 500 initial + 98 adaptive + 608 reference | [Training records](data/reproduction/training_records_1206.csv) |
+| Deduplicated training compositions | 995 | [Training](data/processed/training/) |
+| Initial and adaptive selections | 500 and 100; 98 valid adaptive results | [Initial list](data/processed/cohorts/round_0/selection/selected_500_structures.csv), [adaptive list](data/reproduction/adaptive_selection_100.csv) |
+| Held-out compositions | 110 | [Predictions and labels](data/processed/architecture/blindtest_v2_predictions_v3.csv) |
+| DFT-validated candidates | 60 | [Final energies](data/processed/dft_validation/verification_results_all60.csv) |
+| Full-space predictions / final all-3d candidates | 28,560 / 137 | [Screening](data/processed/screening/) |
+| Paired Co electronic endpoints | 129 pairs, 107 compositions | [Endpoints](data/reproduction/paired_electronic_endpoints.csv) |
+
+The data include final energies, charges, orbital populations, bond populations, processed spectra, model outputs and evaluation records. Trained models are in `models/`.
+
+## Code Ocean
 
 ```bash
 python tools/verify_bundle.py
-python -m pip install -e .
-python examples/predict.py --check-model
-python examples/predict.py --input examples/compositions.csv --output outputs/example_predictions.csv
+python tools/build_capsule.py
 ```
 
-The commands check the supplied files, install the package, load the production model on CPU, and predict adsorption free energies for example compositions. The `herald` Python namespace provides checkpoint compatibility. See [model files](docs/MODELS.md) and [environment setup](environment/README.md).
+This creates `outputs/codeocean/capsule/` and `outputs/codeocean/symsite-her-codeocean.zip`. The capsule run command is `bash run`. See [Code Ocean setup](docs/CODE_OCEAN.md).
 
-## Main datasets
+## Navigation
 
-| Dataset | Records | Location |
-|---|---:|---|
-| Training compositions | 995 | [Training](data/processed/training/) |
-| Held-out predictions | 110 | [Evaluation](data/processed/architecture/blindtest_v2_predictions_v3.csv) |
-| Candidate validation | 60 | [Membership](data/processed/dft_validation/validation_membership.csv) |
-| Full composition-space predictions | 28,560 | [Screening](data/processed/screening/activity_map_28560_v3.csv) |
-| All-3d candidates | 137 | [Candidate table](data/processed/screening/SI_table_cheap_candidates.csv) |
-| Paired electronic records | 129 across 107 compositions | [Electronic changes](data/analysis/electronic_structure/paired_responses/paired_electronic_changes.csv) |
+- [Result-to-input mapping and procedures](docs/REPRODUCIBILITY.md)
+- [Data definitions, units and identities](docs/DATA_DICTIONARY.md)
+- [Model training](docs/TRAINING.md)
+- [NC methods](docs/methods.md), [supplementary methods](docs/supplementary_methods.md), [references](docs/references.md)
+- [Input checksums](code/input_manifest.json), [file inventory](provenance/file_manifest.csv)
+- [License status](docs/LICENSE_STATUS.md)
 
-Data are provided as processed result tables and numerical arrays. Definitions, units and dataset memberships are described in the [data guide](docs/DATA_DICTIONARY.md).
-
-## Repository layout
-
-```text
-src/herald/       Feature, symmetry, model and acquisition library
-scripts/          Model training, screening and manuscript comparisons
-models/           Ensemble checkpoints and empirical expressions
-data/             Result tables, element properties and composition features
-docs/             Methods, supporting information and user guides
-examples/         Model-loading and prediction examples
-tools/            File and dataset verification
-environment/      Dependencies and recorded package versions
-provenance/       Source mappings, table index and file hashes
-```
-
-## Methods and data
-
-- [Methods](docs/methods/methods_EN.md) and [Supporting Information](docs/methods/supporting_information_EN.md).
-- [Empirical expressions](data/analysis/descriptors/README.md) and [electronic structure](data/analysis/electronic_structure/README.md).
-- [File manifest](provenance/file_manifest.csv) and [table index](provenance/table_index.csv).
-- [License information](docs/LICENSE_STATUS.md).
+`code/` contains entry points, `src/herald/` provides feature and model implementations, and `tools/` provides verification and capsule export. Runtime outputs go to a separate results directory.

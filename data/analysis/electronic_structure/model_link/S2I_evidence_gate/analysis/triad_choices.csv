@@ -1,2 +1,0 @@
-panel,model,true_best,predicted_best_set,tied_count,exact_unique_best,includes_true_best,regret_min_eV,regret_max_eV,independent_validation
-Cu_CrFeNi,D01,Co-Cu-Fe-Zn,Co-Cu-Ni-Zn,1,False,False,0.09858700000000001,0.09858700000000001,False

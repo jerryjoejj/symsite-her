@@ -1,6 +1,0 @@
-site,element,Z_valence,bader_clean,bader_H,dQ_H_minus_clean,Q_dev_clean,Q_dev_H,dQ_dev_H_minus_clean,converged_clean,converged_H,notes
-M1,Co,9,8.1732,8.1389,-0.0343,0.8268,0.8611,0.0343,True,True,"NUPDOWN=1 converged: mag=1.0, E0=-598.373 eV (matches relaxation)"
-M2,Cu,11,10.0735,10.0748,0.0012,0.9265,0.9252,-0.0012,True,True,"NUPDOWN=1 converged: mag=1.0, E0=-598.373 eV (matches relaxation)"
-M3,Fe,8,6.9248,6.9096,-0.0152,1.0752,1.0904,0.0152,True,True,"NUPDOWN=1 converged: mag=1.0, E0=-598.373 eV (matches relaxation)"
-M4,Zn,12,10.8321,10.8403,0.0083,1.1679,1.1597,-0.0083,True,True,"NUPDOWN=1 converged: mag=1.0, E0=-598.373 eV (matches relaxation)"
-H*,H,1,,1.0429,,,-0.0429,,True,True,"NUPDOWN=1 converged: mag=1.0, E0=-598.373 eV (matches relaxation)"

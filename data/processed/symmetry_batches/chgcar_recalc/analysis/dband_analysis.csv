@@ -1,7 +1,0 @@
-structure,group,E_F_clean,E_F_H,pseudo_d_center_clean,pseudo_d_center_H,Δε_d
-Ag-Co-Cu-Fe,outlier,-2.5540,-2.9534,-5.0128,-4.8701,0.1427
-Ag-Co-Fe-Cu,outlier,-2.5535,-2.9527,-5.0181,-4.8712,0.1469
-Ag-Co-Cu-Ni,normal,-2.5853,-2.9715,-5.0342,-4.8412,0.1930
-Ag-Co-Ni-Cu,normal,-2.5856,-2.9765,-5.0258,-4.8281,0.1976
-Ag-Fe-Ni-Co,normal,-2.5947,-3.0157,-4.9888,-4.8526,0.1362
-Ag-Fe-Co-Ni,normal,-2.5969,-3.0166,-4.9940,-4.8125,0.1815

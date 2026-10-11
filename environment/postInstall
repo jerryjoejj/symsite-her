@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+python -m pip install --index-url https://download.pytorch.org/whl/cpu torch==2.12.1
+python -m pip install -r /root/capsule/environment/requirements-reproduce.txt

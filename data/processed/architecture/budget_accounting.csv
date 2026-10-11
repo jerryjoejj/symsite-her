@@ -1,7 +1,0 @@
-item,n_structures,cpu_core_hours_per_struct,total_cpu_core_hours
-training_DFT_995,995.0,192.0,191040.0
-validation_DFT_40,40.0,192.0,7680.0
-symmetry_highprec_96_pairs,96.0,288.0,27648.0
-total_ours,,,240000.0
-exhaustive_28560,28560.0,192.0,5483520.0
-saved,,,6600000.0
